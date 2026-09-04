@@ -7,7 +7,7 @@ about:
   head: a07c36d
   archived: false
   latestVersion: v0.20.1
-  collectedAt: 2026-09-04T19:30:36Z
+  collectedAt: 2026-09-04T21:02:59Z
 timeline:
   created: 2024-09-19
   lastCommit: 2026-08-30
@@ -82,6 +82,59 @@ total:
   openIssue: 14
   commit: 461
 ---
+path: /home/runner/.x-repo/github.com/Azure/co-op-translator
+collectedAt: 2026-09-04T21:03:07Z
+loc:
+  Python:
+    code: 24704
+    comments: 1065
+    blanks: 4650
+    files: 169
+  Css:
+    code: 763
+    comments: 0
+    blanks: 134
+    files: 1
+  Yaml:
+    code: 656
+    comments: 15
+    blanks: 13
+    files: 4
+  JavaScript:
+    code: 133
+    comments: 0
+    blanks: 20
+    files: 2
+  Toml:
+    code: 101
+    comments: 4
+    blanks: 12
+    files: 1
+  Dockerfile:
+    code: 36
+    comments: 16
+    blanks: 18
+    files: 1
+  Ini:
+    code: 4
+    comments: 0
+    blanks: 0
+    files: 1
+  Markdown:
+    code: 0
+    comments: 80467
+    blanks: 37755
+    files: 793
+  Text:
+    code: 0
+    comments: 143
+    blanks: 1
+    files: 3
+total:
+  code: 60413
+  comments: 82522
+  blanks: 46483
+  files: 975
 ---
 date: "2026-08-31T04:50:12Z"
 repo:
