@@ -7,7 +7,7 @@ about:
   latestVersion: "v0.20.1"
   latestRelease: "v0.20.1"
   latestPrerelease: "v0.10.0rc3"
-  collectedAt: 2026-09-10T17:58:04Z
+  collectedAt: 2026-09-10T23:43:41Z
 timeline:
   created: 2024-09-19
   lastCommit: 2026-09-09
@@ -85,7 +85,7 @@ total:
   commit: 463
 ---
 path: /home/runner/.x-repo/github.com/Azure/co-op-translator
-collectedAt: 2026-09-10T17:58:19Z
+collectedAt: 2026-09-10T23:44:28Z
 loc:
   Python:
     code: 25508
