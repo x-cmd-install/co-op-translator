@@ -14,13 +14,13 @@ x install co-op-translator
 
 ## Code insight
 
-Total: **27,206** lines of code across **190** files in the top 5 languages.
+Total: **27,607** lines of code across **193** files in the top 5 languages.
 
 | Language | Code | Comments | Blanks | Files |
 |----------|-----:|---------:|-------:|------:|
-| Python | 25,508 | 1,047 | 4,828 | 182 |
+| Python | 25,655 | 1,049 | 4,858 | 183 |
+| Yaml | 910 | 19 | 29 | 6 |
 | Css | 763 | 0 | 134 | 1 |
-| Yaml | 656 | 15 | 13 | 4 |
 | JavaScript | 133 | 0 | 20 | 2 |
 | Toml | 106 | 4 | 12 | 1 |
 
@@ -30,7 +30,7 @@ Overall score: **5.9 / 10**
 
 Lowest-scoring checks:
 
-- **Code-Review** (1/10) — Found 2/14 approved changesets -- score normalized to 1
+- **Code-Review** (1/10) — Found 2/19 approved changesets -- score normalized to 1
 - **Token-Permissions** (0/10) — detected GitHub workflow tokens with excessive permissions
 - **CII-Best-Practices** (0/10) — no effort to earn an OpenSSF best practices badge detected
 
@@ -43,26 +43,26 @@ Lowest-scoring checks:
 ## Release
 
 - **Latest**: `v0.20.1` (2026-08-29)
-- **Last commit**: 2026-09-09
+- **Last commit**: 2026-09-16
 
 ## Popularity
 
-- **Stars**: 652 · **Forks**: 106 · **Open issues**: 96 · **Contributors**: 24
+- **Stars**: 653 · **Forks**: 106 · **Open issues**: 96 · **Contributors**: 24
 
 ## Totals (cumulative)
 
-- **Releases**: 68 · **Merged PRs**: 402 · **Open PRs**: 2 · **Closed issues**: 81 · **Open issues**: 15 · **Commits**: 463
+- **Releases**: 68 · **Merged PRs**: 408 · **Open PRs**: 0 · **Closed issues**: 82 · **Open issues**: 14 · **Commits**: 469
 
 ## Recent activity
 
 | Window | Since | Releases | Merged PRs | Open PRs | Closed issues | Open issues | Commits |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-08-16 | 1 | 13 | 2 | 0 | 2 | 23 |
-| last60d | 2026-07-17 | 1 | 20 | 2 | 1 | 3 | 26 |
-| 90d | 2026-06-17 | 5 | 74 | 2 | 2 | 4 | 80 |
-| last180d | 2026-03-19 | 10 | 111 | 2 | 7 | 5 | 113 |
-| 360d | 2025-09-20 | 41 | 227 | 2 | 37 | 8 | 237 |
-| last720d | 2024-09-25 | 67 | 394 | 2 | 75 | 15 | 437 |
+| 30d | 2026-08-17 | 1 | 19 | 0 | 1 | 1 | 0 |
+| last60d | 2026-07-18 | 1 | 26 | 0 | 2 | 2 | 0 |
+| 90d | 2026-06-18 | 5 | 80 | 0 | 3 | 3 | 0 |
+| last180d | 2026-03-20 | 10 | 117 | 0 | 8 | 4 | 0 |
+| 360d | 2025-09-21 | 41 | 232 | 0 | 38 | 7 | 0 |
+| last720d | 2024-09-26 | 67 | 400 | 0 | 76 | 14 | 438 |
 
 ## Improve this data
 
@@ -73,4 +73,4 @@ Install metadata for co-op-translator lives in the [x-cmd/install](https://githu
 
 The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
 
-_Snapshot: `data/card/260915.yml` · 2026-09-15T06:19:38Z._
+_Snapshot: `data/card/260916.yml` · 2026-09-16T06:26:03Z._
