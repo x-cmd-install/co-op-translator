@@ -2,9 +2,9 @@
 
 [English version](./README.md)
 
-Easily automate the translation of your documentation into multiple languages, powered by Azure AI Services
+Keep Markdown, Jupyter notebooks, and image text translated as your repository changes.
 
-![co-op-translator](https://repo.x-cmd.io/co-op-translator.svg?lang=zh)
+[![x-cmd/install — co-op-translator Code Quality Monitoring Repo Card](https://repo.x-cmd.io/co-op-translator.svg?lang=zh)](https://x-cmd.com/install/co-op-translator)
 
 ## 安装
 
@@ -14,12 +14,12 @@ x install co-op-translator
 
 ## 代码洞察
 
-合计: **28,681** 行代码（覆盖前 5 种语言、共 **198** 个文件）。
+合计: **28,731** 行代码（覆盖前 5 种语言、共 **198** 个文件）。
 
 | 语言 | 代码 | 注释 | 空行 | 文件数 |
 |------|-----:|-----:|-----:|------:|
 | Python | 26,727 | 1,050 | 5,059 | 188 |
-| Yaml | 913 | 19 | 29 | 6 |
+| Yaml | 914 | 19 | 29 | 6 |
 | Css | 763 | 0 | 134 | 1 |
 | JavaScript | 133 | 0 | 20 | 2 |
 | Toml | 105 | 4 | 12 | 1 |
@@ -30,8 +30,8 @@ x install co-op-translator
 
 评分最低的几项:
 
-- **Code-Review** (0/10) — Found 2/24 approved changesets -- score normalized to 0
 - **Token-Permissions** (0/10) — detected GitHub workflow tokens with excessive permissions
+- **Code-Review** (0/10) — Found 2/26 approved changesets -- score normalized to 0
 - **CII-Best-Practices** (0/10) — no effort to earn an OpenSSF best practices badge detected
 
 ## 源代码
@@ -42,8 +42,8 @@ x install co-op-translator
 
 ## 发布
 
-- **最新版本**: `v0.20.1` (2026-08-29)
-- **最近提交**: 2026-09-17
+- **最新版本**: `v0.21.0` (2026-09-19)
+- **最近提交**: 2026-09-19
 
 ## 流行度
 
@@ -51,18 +51,18 @@ x install co-op-translator
 
 ## 累计统计
 
-- **发布数**: 68 · **已合并 PR**: 416 · **开放 PR**: 0 · **已关闭 issue**: 82 · **开放 issue**: 14 · **提交数**: 477
+- **发布数**: 69 · **已合并 PR**: 418 · **开放 PR**: 0 · **已关闭 issue**: 82 · **开放 issue**: 14 · **提交数**: 479
 
 ## 最近活动
 
 | 时间窗口 | 起始 | 发布 | 已合并 PR | 开放 PR | 已关闭 issue | 开放 issue | 提交 |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-08-19 | 1 | 27 | 0 | 1 | 0 | 37 |
-| last60d | 2026-07-20 | 1 | 32 | 0 | 2 | 2 | 40 |
-| 90d | 2026-06-20 | 5 | 88 | 0 | 3 | 3 | 94 |
-| last180d | 2026-03-22 | 10 | 125 | 0 | 8 | 4 | 127 |
-| 360d | 2025-09-23 | 40 | 240 | 0 | 38 | 7 | 251 |
-| last720d | 2024-09-28 | 67 | 407 | 0 | 74 | 13 | 445 |
+| 30d | 2026-08-21 | 2 | 29 | 0 | 1 | 0 | 28 |
+| last60d | 2026-07-22 | 2 | 34 | 0 | 2 | 2 | 41 |
+| 90d | 2026-06-22 | 6 | 90 | 0 | 3 | 3 | 74 |
+| last180d | 2026-03-24 | 11 | 127 | 0 | 8 | 4 | 123 |
+| 360d | 2025-09-25 | 41 | 242 | 0 | 35 | 7 | 251 |
+| last720d | 2024-09-30 | 67 | 406 | 0 | 72 | 13 | 434 |
 
 ## 改进这些数据
 
@@ -73,4 +73,4 @@ co-op-translator 的安装元数据由 [x-cmd/install](https://github.com/x-cmd/
 
 本页面的数据（card / loc / scorecard / release）由 [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) 自动采集，每日重新生成。**安装行为**（版本选择、平台差异、依赖处理）的改进应提交到上游索引。
 
-_数据快照: `data/card/260918.yml` · 2026-09-18T06:13:21Z._
+_数据快照: `data/card/260920.yml` · 2026-09-20T06:06:12Z._

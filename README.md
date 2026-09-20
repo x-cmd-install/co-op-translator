@@ -2,9 +2,9 @@
 
 [中文版本](./README.cn.md)
 
-Easily automate the translation of your documentation into multiple languages, powered by Azure AI Services
+Keep Markdown, Jupyter notebooks, and image text translated as your repository changes.
 
-![co-op-translator](https://repo.x-cmd.io/co-op-translator.svg)
+[![x-cmd/install — co-op-translator Code Quality Monitoring Repo Card](https://repo.x-cmd.io/co-op-translator.svg)](https://x-cmd.com/install/co-op-translator)
 
 ## Install
 
@@ -14,12 +14,12 @@ x install co-op-translator
 
 ## Code insight
 
-Total: **28,681** lines of code across **198** files in the top 5 languages.
+Total: **28,731** lines of code across **198** files in the top 5 languages.
 
 | Language | Code | Comments | Blanks | Files |
 |----------|-----:|---------:|-------:|------:|
 | Python | 26,727 | 1,050 | 5,059 | 188 |
-| Yaml | 913 | 19 | 29 | 6 |
+| Yaml | 914 | 19 | 29 | 6 |
 | Css | 763 | 0 | 134 | 1 |
 | JavaScript | 133 | 0 | 20 | 2 |
 | Toml | 105 | 4 | 12 | 1 |
@@ -30,8 +30,8 @@ Overall score: **5.9 / 10**
 
 Lowest-scoring checks:
 
-- **Code-Review** (0/10) — Found 2/24 approved changesets -- score normalized to 0
 - **Token-Permissions** (0/10) — detected GitHub workflow tokens with excessive permissions
+- **Code-Review** (0/10) — Found 2/26 approved changesets -- score normalized to 0
 - **CII-Best-Practices** (0/10) — no effort to earn an OpenSSF best practices badge detected
 
 ## Source
@@ -42,8 +42,8 @@ Lowest-scoring checks:
 
 ## Release
 
-- **Latest**: `v0.20.1` (2026-08-29)
-- **Last commit**: 2026-09-17
+- **Latest**: `v0.21.0` (2026-09-19)
+- **Last commit**: 2026-09-19
 
 ## Popularity
 
@@ -51,18 +51,18 @@ Lowest-scoring checks:
 
 ## Totals (cumulative)
 
-- **Releases**: 68 · **Merged PRs**: 416 · **Open PRs**: 0 · **Closed issues**: 82 · **Open issues**: 14 · **Commits**: 477
+- **Releases**: 69 · **Merged PRs**: 418 · **Open PRs**: 0 · **Closed issues**: 82 · **Open issues**: 14 · **Commits**: 479
 
 ## Recent activity
 
 | Window | Since | Releases | Merged PRs | Open PRs | Closed issues | Open issues | Commits |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-08-19 | 1 | 27 | 0 | 1 | 0 | 37 |
-| last60d | 2026-07-20 | 1 | 32 | 0 | 2 | 2 | 40 |
-| 90d | 2026-06-20 | 5 | 88 | 0 | 3 | 3 | 94 |
-| last180d | 2026-03-22 | 10 | 125 | 0 | 8 | 4 | 127 |
-| 360d | 2025-09-23 | 40 | 240 | 0 | 38 | 7 | 251 |
-| last720d | 2024-09-28 | 67 | 407 | 0 | 74 | 13 | 445 |
+| 30d | 2026-08-21 | 2 | 29 | 0 | 1 | 0 | 28 |
+| last60d | 2026-07-22 | 2 | 34 | 0 | 2 | 2 | 41 |
+| 90d | 2026-06-22 | 6 | 90 | 0 | 3 | 3 | 74 |
+| last180d | 2026-03-24 | 11 | 127 | 0 | 8 | 4 | 123 |
+| 360d | 2025-09-25 | 41 | 242 | 0 | 35 | 7 | 251 |
+| last720d | 2024-09-30 | 67 | 406 | 0 | 72 | 13 | 434 |
 
 ## Improve this data
 
@@ -73,4 +73,4 @@ Install metadata for co-op-translator lives in the [x-cmd/install](https://githu
 
 The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
 
-_Snapshot: `data/card/260918.yml` · 2026-09-18T06:13:21Z._
+_Snapshot: `data/card/260920.yml` · 2026-09-20T06:06:11Z._
