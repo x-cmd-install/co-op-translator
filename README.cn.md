@@ -30,8 +30,8 @@ x install co-op-translator
 
 评分最低的几项:
 
-- **Token-Permissions** (0/10) — detected GitHub workflow tokens with excessive permissions
 - **Code-Review** (0/10) — Found 2/26 approved changesets -- score normalized to 0
+- **Token-Permissions** (0/10) — detected GitHub workflow tokens with excessive permissions
 - **CII-Best-Practices** (0/10) — no effort to earn an OpenSSF best practices badge detected
 
 ## 源代码
@@ -57,12 +57,12 @@ x install co-op-translator
 
 | 时间窗口 | 起始 | 发布 | 已合并 PR | 开放 PR | 已关闭 issue | 开放 issue | 提交 |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-08-21 | 2 | 29 | 0 | 1 | 0 | 28 |
-| last60d | 2026-07-22 | 2 | 34 | 0 | 2 | 2 | 41 |
-| 90d | 2026-06-22 | 6 | 90 | 0 | 3 | 3 | 74 |
-| last180d | 2026-03-24 | 11 | 127 | 0 | 8 | 4 | 123 |
-| 360d | 2025-09-25 | 41 | 242 | 0 | 35 | 7 | 251 |
-| last720d | 2024-09-30 | 67 | 406 | 0 | 72 | 13 | 434 |
+| 30d | 2026-08-22 | 2 | 29 | 0 | 1 | 0 | 28 |
+| last60d | 2026-07-23 | 2 | 34 | 0 | 2 | 2 | 41 |
+| 90d | 2026-06-23 | 6 | 82 | 0 | 3 | 3 | 74 |
+| last180d | 2026-03-25 | 11 | 127 | 0 | 8 | 4 | 123 |
+| 360d | 2025-09-26 | 41 | 242 | 0 | 34 | 7 | 251 |
+| last720d | 2024-10-01 | 67 | 406 | 0 | 71 | 13 | 434 |
 
 ## 改进这些数据
 
@@ -73,4 +73,4 @@ co-op-translator 的安装元数据由 [x-cmd/install](https://github.com/x-cmd/
 
 本页面的数据（card / loc / scorecard / release）由 [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) 自动采集，每日重新生成。**安装行为**（版本选择、平台差异、依赖处理）的改进应提交到上游索引。
 
-_数据快照: `data/card/260920.yml` · 2026-09-20T06:06:12Z._
+_数据快照: `data/card/260921.yml` · 2026-09-21T06:18:48Z._
