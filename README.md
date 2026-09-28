@@ -57,12 +57,12 @@ Lowest-scoring checks:
 
 | Window | Since | Releases | Merged PRs | Open PRs | Closed issues | Open issues | Commits |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-08-28 | 2 | 25 | 1 | 1 | 0 | 18 |
-| last60d | 2026-07-29 | 2 | 34 | 1 | 2 | 1 | 40 |
-| 90d | 2026-06-29 | 3 | 55 | 1 | 3 | 3 | 51 |
-| last180d | 2026-03-31 | 10 | 121 | 1 | 7 | 4 | 121 |
-| 360d | 2025-10-02 | 40 | 239 | 1 | 28 | 6 | 247 |
-| last720d | 2024-10-07 | 67 | 403 | 1 | 71 | 13 | 427 |
+| 30d | 2026-08-29 | 2 | 19 | 1 | 1 | 0 | 18 |
+| last60d | 2026-07-30 | 2 | 34 | 1 | 2 | 1 | 40 |
+| 90d | 2026-06-30 | 3 | 52 | 1 | 3 | 3 | 51 |
+| last180d | 2026-04-01 | 10 | 120 | 1 | 7 | 4 | 121 |
+| 360d | 2025-10-03 | 40 | 239 | 1 | 28 | 6 | 247 |
+| last720d | 2024-10-08 | 67 | 401 | 1 | 70 | 12 | 427 |
 
 ## Improve this data
 
@@ -73,4 +73,4 @@ Install metadata for co-op-translator lives in the [x-cmd/install](https://githu
 
 The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
 
-_Snapshot: `data/card/260927.yml` · 2026-09-27T06:23:29Z._
+_Snapshot: `data/card/260928.yml` · 2026-09-28T06:24:58Z._
