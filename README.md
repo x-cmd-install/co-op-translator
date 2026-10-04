@@ -14,12 +14,12 @@ x install co-op-translator
 
 ## Code insight
 
-Total: **29,417** lines of code across **203** files in the top 5 languages.
+Total: **32,135** lines of code across **219** files in the top 5 languages.
 
 | Language | Code | Comments | Blanks | Files |
 |----------|-----:|---------:|-------:|------:|
-| Python | 27,288 | 1,063 | 5,140 | 192 |
-| Yaml | 923 | 19 | 29 | 6 |
+| Python | 29,952 | 1,059 | 5,496 | 207 |
+| Yaml | 931 | 19 | 29 | 7 |
 | Css | 763 | 0 | 134 | 1 |
 | JavaScript | 248 | 2 | 23 | 3 |
 | Toml | 106 | 4 | 12 | 1 |
@@ -47,22 +47,22 @@ Lowest-scoring checks:
 
 ## Popularity
 
-- **Stars**: 658 · **Forks**: 107 · **Open issues**: 98 · **Contributors**: 26
+- **Stars**: 658 · **Forks**: 108 · **Open issues**: 98 · **Contributors**: 26
 
 ## Totals (cumulative)
 
-- **Releases**: 70 · **Merged PRs**: 427 · **Open PRs**: 4 · **Closed issues**: 83 · **Open issues**: 15 · **Commits**: 489
+- **Releases**: 70 · **Merged PRs**: 432 · **Open PRs**: 0 · **Closed issues**: 83 · **Open issues**: 15 · **Commits**: 494
 
 ## Recent activity
 
 | Window | Since | Releases | Merged PRs | Open PRs | Closed issues | Open issues | Commits |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-09-03 | 2 | 25 | 4 | 2 | 1 | 28 |
-| last60d | 2026-08-04 | 3 | 42 | 4 | 2 | 2 | 50 |
-| 90d | 2026-07-05 | 4 | 60 | 4 | 3 | 3 | 61 |
-| last180d | 2026-04-06 | 11 | 129 | 4 | 8 | 5 | 131 |
-| 360d | 2025-10-08 | 41 | 244 | 4 | 27 | 7 | 257 |
-| last720d | 2024-10-13 | 68 | 404 | 4 | 68 | 13 | 422 |
+| 30d | 2026-09-04 | 2 | 30 | 0 | 2 | 1 | 31 |
+| last60d | 2026-08-05 | 3 | 46 | 0 | 2 | 2 | 54 |
+| 90d | 2026-07-06 | 4 | 58 | 0 | 3 | 3 | 60 |
+| last180d | 2026-04-07 | 11 | 132 | 0 | 8 | 5 | 135 |
+| 360d | 2025-10-09 | 41 | 249 | 0 | 27 | 7 | 246 |
+| last720d | 2024-10-14 | 68 | 408 | 0 | 68 | 13 | 427 |
 
 ## Improve this data
 
@@ -73,4 +73,4 @@ Install metadata for co-op-translator lives in the [x-cmd/install](https://githu
 
 The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
 
-_Snapshot: `data/card/261003.yml` · 2026-10-03T06:17:49Z._
+_Snapshot: `data/card/261004.yml` · 2026-10-04T06:49:24Z._
