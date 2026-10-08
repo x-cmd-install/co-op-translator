@@ -47,7 +47,7 @@ Lowest-scoring checks:
 
 ## Popularity
 
-- **Stars**: 659 · **Forks**: 109 · **Open issues**: 99 · **Contributors**: 26
+- **Stars**: 659 · **Forks**: 110 · **Open issues**: 99 · **Contributors**: 26
 
 ## Totals (cumulative)
 
@@ -57,12 +57,12 @@ Lowest-scoring checks:
 
 | Window | Since | Releases | Merged PRs | Open PRs | Closed issues | Open issues | Commits |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-09-07 | 2 | 30 | 0 | 2 | 2 | 31 |
-| last60d | 2026-08-08 | 3 | 46 | 0 | 2 | 3 | 54 |
-| 90d | 2026-07-09 | 3 | 53 | 0 | 3 | 4 | 60 |
-| last180d | 2026-04-10 | 11 | 132 | 0 | 8 | 6 | 135 |
-| 360d | 2025-10-12 | 39 | 246 | 0 | 26 | 8 | 246 |
-| last720d | 2024-10-17 | 68 | 405 | 0 | 67 | 13 | 425 |
+| 30d | 2026-09-08 | 2 | 30 | 0 | 2 | 2 | 31 |
+| last60d | 2026-08-09 | 3 | 44 | 0 | 2 | 3 | 54 |
+| 90d | 2026-07-10 | 3 | 53 | 0 | 3 | 4 | 60 |
+| last180d | 2026-04-11 | 11 | 131 | 0 | 7 | 6 | 135 |
+| 360d | 2025-10-13 | 39 | 243 | 0 | 26 | 8 | 246 |
+| last720d | 2024-10-18 | 68 | 404 | 0 | 67 | 13 | 423 |
 
 ## Improve this data
 
@@ -73,4 +73,4 @@ Install metadata for co-op-translator lives in the [x-cmd/install](https://githu
 
 The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
 
-_Snapshot: `data/card/261007.yml` · 2026-10-07T06:58:31Z._
+_Snapshot: `data/card/261008.yml` · 2026-10-08T07:07:46Z._
