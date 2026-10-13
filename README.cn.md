@@ -14,11 +14,11 @@ x install co-op-translator
 
 ## 代码洞察
 
-合计: **32,135** 行代码（覆盖前 5 种语言、共 **219** 个文件）。
+合计: **32,165** 行代码（覆盖前 5 种语言、共 **219** 个文件）。
 
 | 语言 | 代码 | 注释 | 空行 | 文件数 |
 |------|-----:|-----:|-----:|------:|
-| Python | 29,952 | 1,059 | 5,496 | 207 |
+| Python | 29,982 | 1,062 | 5,504 | 207 |
 | Yaml | 931 | 19 | 29 | 7 |
 | Css | 763 | 0 | 134 | 1 |
 | JavaScript | 248 | 2 | 23 | 3 |
@@ -30,7 +30,7 @@ x install co-op-translator
 
 评分最低的几项:
 
-- **Code-Review** (0/10) — Found 1/27 approved changesets -- score normalized to 0
+- **Code-Review** (0/10) — Found 2/27 approved changesets -- score normalized to 0
 - **Token-Permissions** (0/10) — detected GitHub workflow tokens with excessive permissions
 - **CII-Best-Practices** (0/10) — no effort to earn an OpenSSF best practices badge detected
 
@@ -43,26 +43,26 @@ x install co-op-translator
 ## 发布
 
 - **最新版本**: `v0.22.0` (2026-10-02)
-- **最近提交**: 2026-10-03
+- **最近提交**: 2026-10-13
 
 ## 流行度
 
-- **Star**: 659 · **Fork**: 112 · **开放 issue**: 99 · **贡献者**: 26
+- **Star**: 659 · **Fork**: 112 · **开放 issue**: 99 · **贡献者**: 27
 
 ## 累计统计
 
-- **发布数**: 70 · **已合并 PR**: 432 · **开放 PR**: 1 · **已关闭 issue**: 83 · **开放 issue**: 16 · **提交数**: 494
+- **发布数**: 70 · **已合并 PR**: 433 · **开放 PR**: 2 · **已关闭 issue**: 83 · **开放 issue**: 16 · **提交数**: 495
 
 ## 最近活动
 
 | 时间窗口 | 起始 | 发布 | 已合并 PR | 开放 PR | 已关闭 issue | 开放 issue | 提交 |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-09-12 | 2 | 28 | 1 | 2 | 2 | 17 |
-| last60d | 2026-08-13 | 3 | 43 | 1 | 2 | 3 | 54 |
-| 90d | 2026-07-14 | 3 | 51 | 1 | 3 | 4 | 57 |
-| last180d | 2026-04-15 | 11 | 130 | 1 | 7 | 6 | 128 |
-| 360d | 2025-10-17 | 38 | 238 | 1 | 25 | 8 | 245 |
-| last720d | 2024-10-22 | 68 | 403 | 1 | 66 | 13 | 421 |
+| 30d | 2026-09-13 | 2 | 29 | 2 | 1 | 2 | 18 |
+| last60d | 2026-08-14 | 3 | 44 | 2 | 2 | 3 | 55 |
+| 90d | 2026-07-15 | 3 | 52 | 2 | 3 | 4 | 58 |
+| last180d | 2026-04-16 | 11 | 131 | 2 | 7 | 6 | 129 |
+| 360d | 2025-10-18 | 38 | 239 | 2 | 25 | 8 | 246 |
+| last720d | 2024-10-23 | 68 | 404 | 2 | 66 | 13 | 422 |
 
 ## 改进这些数据
 
@@ -73,4 +73,4 @@ co-op-translator 的安装元数据由 [x-cmd/install](https://github.com/x-cmd/
 
 本页面的数据（card / loc / scorecard / release）由 [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) 自动采集，每日重新生成。**安装行为**（版本选择、平台差异、依赖处理）的改进应提交到上游索引。
 
-_数据快照: `data/card/261012.yml` · 2026-10-12T07:10:35Z._
+_数据快照: `data/card/261013.yml` · 2026-10-13T07:57:02Z._
