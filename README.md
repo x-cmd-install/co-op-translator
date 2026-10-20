@@ -51,18 +51,18 @@ Lowest-scoring checks:
 
 ## Totals (cumulative)
 
-- **Releases**: 71 · **Merged PRs**: 434 · **Open PRs**: 5 · **Closed issues**: 84 · **Open issues**: 17 · **Commits**: 496
+- **Releases**: 71 · **Merged PRs**: 434 · **Open PRs**: 6 · **Closed issues**: 84 · **Open issues**: 17 · **Commits**: 496
 
 ## Recent activity
 
 | Window | Since | Releases | Merged PRs | Open PRs | Closed issues | Open issues | Commits |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-09-19 | 3 | 16 | 5 | 2 | 3 | 17 |
-| last60d | 2026-08-20 | 4 | 45 | 5 | 3 | 3 | 45 |
-| 90d | 2026-07-21 | 4 | 50 | 5 | 4 | 5 | 58 |
-| last180d | 2026-04-22 | 10 | 127 | 5 | 7 | 7 | 129 |
-| 360d | 2025-10-24 | 39 | 236 | 5 | 26 | 9 | 243 |
-| last720d | 2024-10-29 | 69 | 403 | 5 | 67 | 14 | 422 |
+| 30d | 2026-09-20 | 2 | 16 | 6 | 2 | 3 | 17 |
+| last60d | 2026-08-21 | 4 | 45 | 6 | 3 | 3 | 45 |
+| 90d | 2026-07-22 | 4 | 50 | 6 | 4 | 5 | 58 |
+| last180d | 2026-04-23 | 10 | 127 | 6 | 7 | 7 | 129 |
+| 360d | 2025-10-25 | 38 | 236 | 6 | 26 | 9 | 243 |
+| last720d | 2024-10-30 | 69 | 403 | 6 | 67 | 14 | 421 |
 
 ## Improve this data
 
@@ -73,4 +73,4 @@ Install metadata for co-op-translator lives in the [x-cmd/install](https://githu
 
 The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
 
-_Snapshot: `data/card/261019.yml` · 2026-10-19T05:35:59Z._
+_Snapshot: `data/card/261020.yml` · 2026-10-20T05:50:50Z._
