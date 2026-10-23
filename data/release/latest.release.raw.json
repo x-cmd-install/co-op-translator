@@ -1,9 +1,9 @@
 {
-  "url": "https://api.github.com/repos/Azure/co-op-translator/releases/419161452",
-  "assets_url": "https://api.github.com/repos/Azure/co-op-translator/releases/419161452/assets",
-  "upload_url": "https://uploads.github.com/repos/Azure/co-op-translator/releases/419161452/assets{?name,label}",
-  "html_url": "https://github.com/Azure/co-op-translator/releases/tag/v0.23.1",
-  "id": 419161452,
+  "url": "https://api.github.com/repos/Azure/co-op-translator/releases/420679346",
+  "assets_url": "https://api.github.com/repos/Azure/co-op-translator/releases/420679346/assets",
+  "upload_url": "https://uploads.github.com/repos/Azure/co-op-translator/releases/420679346/assets{?name,label}",
+  "html_url": "https://github.com/Azure/co-op-translator/releases/tag/v0.23.2",
+  "id": 420679346,
   "author": {
     "login": "skytin1004",
     "id": 99078115,
@@ -25,21 +25,21 @@
     "user_view_type": "public",
     "site_admin": false
   },
-  "node_id": "RE_kwDOMz8RKM4Y--Vs",
-  "tag_name": "v0.23.1",
+  "node_id": "RE_kwDOMz8RKM4ZEw6y",
+  "tag_name": "v0.23.2",
   "target_commitish": "main",
-  "name": "Co-op Translator 0.23.1",
+  "name": "Co-op Translator 0.23.2",
   "draft": false,
   "immutable": false,
   "prerelease": false,
-  "created_at": "2026-10-21T04:29:15Z",
-  "updated_at": "2026-10-21T04:32:23Z",
-  "published_at": "2026-10-21T04:31:09Z",
+  "created_at": "2026-10-22T12:04:42Z",
+  "updated_at": "2026-10-22T12:13:09Z",
+  "published_at": "2026-10-22T12:13:09Z",
   "assets": [
 
   ],
-  "tarball_url": "https://api.github.com/repos/Azure/co-op-translator/tarball/v0.23.1",
-  "zipball_url": "https://api.github.com/repos/Azure/co-op-translator/zipball/v0.23.1",
-  "body": "## Co-op Translator 0.23.1\r\n\r\nThis patch release makes Markdown translation recovery reliable when an AI model reports a normal completion but silently omits source lines or loses, duplicates, or reorders protected Markdown content.\r\n\r\n### Highlights\r\n\r\n- Validates line anchors and protected code-block, inline-code, and link-destination placeholders inside each translated chunk.\r\n- Rejects silent placeholder loss, duplication, and reordering before a chunk is accepted.\r\n- Preserves the longest verified translated prefix and retries only the missing terminal suffix when possible.\r\n- Targets the first affected source line before falling back to semantic token limits and lossless paragraph/line bisection down to a single line.\r\n- Emits safe structured retry diagnostics, including expected/actual counts and the first affected source line, without exposing source text.\r\n\r\n### Root cause\r\n\r\nLive Azure OpenAI replays showed that AI model can intermittently return HTTP 200 with `finish_reason='stop'` while producing structurally incomplete Markdown. The omitted boundary can move between otherwise identical calls, and affected responses remain below provider token limits without a `length` or `content_filter` finish reason.\r\n\r\nThe Markdown splitter were not the root cause. Chunking limits retry cost and reduces the probability of failure, but it cannot prevent this model behavior by itself. Co-op Translator previously detected protected-placeholder corruption only after translated chunks were joined, which removed the chunk and source-line context needed for targeted recovery. It also discarded valid translated prefixes and retranslated them on every retry.\r\n\r\n### Verification\r\n\r\nThe production failure was reproduced and fixed with:\r\n\r\n- Repository: `microsoft/generative-ai-for-beginners`\r\n- Source: `CHANGELOG.md` at commit `c35bc1950f9dc56af773d2c362dafce6f76e9a56`\r\n- Target language: Tamil (`ta`)\r\n\r\nPost-fix results:\r\n\r\n- Translation run: 1 translated, 0 failed\r\n- Source and translation: 181 lines each\r\n- Protected code spans: 179/179 with exact content and order preserved\r\n- Markdown link destinations: 1/1 with exact content and order preserved\r\n- Leaked internal control or protection markers: 0\r\n- Markdown translator tests: 30 passed\r\n- Full non-live suite: 555 passed, 2 skipped\r\n- Python 3.11, 3.12, 3.13, and 3.14 CI: passed\r\n- Ruff, Black, package validation, and wheel build: passed\r\n\r\n## What's Changed\r\n\r\n- Core: Recover silent Markdown translation omissions by @skytin1004 in #568\r\n\r\n**Full Changelog**: https://github.com/Azure/co-op-translator/compare/v0.23.0...v0.23.1\r\n",
-  "mentions_count": 1
+  "tarball_url": "https://api.github.com/repos/Azure/co-op-translator/tarball/v0.23.2",
+  "zipball_url": "https://api.github.com/repos/Azure/co-op-translator/zipball/v0.23.2",
+  "body": "## Highlights\r\n\r\n- Fixed translation failures caused by valid inline-code placeholder reordering in languages such as Simplified Chinese.\r\n- The validator now permits reordering only within the same plain-text line when the exact placeholder multiset is preserved.\r\n- Markdown structure safeguards remain strict for tables, links, emphasis, math, grouping, code blocks, and cross-line movement.\r\n- Diagnostics now identify the first unsafe source line and protected token, making failures easier to trace.\r\n\r\nThis fixes the production `zh-CN` `CHANGELOG.md` case without relying on progressively smaller chunks or switching models.\r\n\r\n## Dependency updates\r\n\r\n- Pillow 12.3.0 → 13.0.0\r\n- MCP 1.29.1 → 1.30.0\r\n- multidict 6.7.1 → 6.9.1\r\n\r\n## What's Changed\r\n\r\n- Core: Allow safe inline-code placeholder reordering by @skytin1004 in https://github.com/Azure/co-op-translator/pull/572\r\n- Build(deps): Bump pillow from 12.3.0 to 13.0.0 by @dependabot[bot] in https://github.com/Azure/co-op-translator/pull/571\r\n- Build(deps): Bump multidict from 6.7.1 to 6.9.1 by @dependabot[bot] in https://github.com/Azure/co-op-translator/pull/565\r\n- Build(deps): Bump mcp from 1.29.1 to 1.30.0 by @dependabot[bot] in https://github.com/Azure/co-op-translator/pull/569\r\n- Build: Bump version to 0.23.2 by @skytin1004 in https://github.com/Azure/co-op-translator/pull/574\r\n\r\n**Full Changelog**: https://github.com/Azure/co-op-translator/compare/v0.23.1...v0.23.2",
+  "mentions_count": 2
 }
