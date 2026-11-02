@@ -30,7 +30,7 @@ Overall score: **5.8 / 10**
 
 Lowest-scoring checks:
 
-- **Code-Review** (0/10) — Found 2/25 approved changesets -- score normalized to 0
+- **Code-Review** (0/10) — Found 2/21 approved changesets -- score normalized to 0
 - **Token-Permissions** (0/10) — detected GitHub workflow tokens with excessive permissions
 - **CII-Best-Practices** (0/10) — no effort to earn an OpenSSF best practices badge detected
 
@@ -43,7 +43,7 @@ Lowest-scoring checks:
 ## Release
 
 - **Latest**: `v0.23.2` (2026-10-22)
-- **Last commit**: 2026-10-22
+- **Last commit**: 2026-11-02
 
 ## Popularity
 
@@ -51,18 +51,18 @@ Lowest-scoring checks:
 
 ## Totals (cumulative)
 
-- **Releases**: 73 · **Merged PRs**: 440 · **Open PRs**: 8 · **Closed issues**: 84 · **Open issues**: 17 · **Commits**: 504
+- **Releases**: 73 · **Merged PRs**: 444 · **Open PRs**: 5 · **Closed issues**: 84 · **Open issues**: 17 · **Commits**: 508
 
 ## Recent activity
 
 | Window | Since | Releases | Merged PRs | Open PRs | Closed issues | Open issues | Commits |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-10-02 | 4 | 14 | 8 | 1 | 2 | 10 |
-| last60d | 2026-09-02 | 5 | 38 | 8 | 3 | 3 | 42 |
-| 90d | 2026-08-03 | 6 | 56 | 8 | 3 | 4 | 64 |
-| last180d | 2026-05-05 | 10 | 124 | 8 | 6 | 6 | 127 |
-| 360d | 2025-11-06 | 40 | 241 | 8 | 26 | 8 | 247 |
-| last720d | 2024-11-11 | 70 | 404 | 8 | 65 | 14 | 424 |
+| 30d | 2026-10-03 | 3 | 12 | 5 | 1 | 2 | 14 |
+| last60d | 2026-09-03 | 5 | 42 | 5 | 3 | 3 | 46 |
+| 90d | 2026-08-04 | 6 | 59 | 5 | 3 | 4 | 68 |
+| last180d | 2026-05-06 | 10 | 128 | 5 | 6 | 6 | 131 |
+| 360d | 2025-11-07 | 40 | 243 | 5 | 26 | 8 | 251 |
+| last720d | 2024-11-12 | 70 | 408 | 5 | 65 | 14 | 428 |
 
 ## Improve this data
 
@@ -73,4 +73,4 @@ Install metadata for co-op-translator lives in the [x-cmd/install](https://githu
 
 The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
 
-_Snapshot: `data/card/261101.yml` · 2026-11-01T07:03:57Z._
+_Snapshot: `data/card/261102.yml` · 2026-11-02T07:18:26Z._
