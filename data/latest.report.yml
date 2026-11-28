@@ -7,7 +7,7 @@ about:
   latestVersion: "v0.24.1"
   latestRelease: "v0.24.1"
   latestPrerelease: "v0.10.0rc3"
-  collectedAt: 2026-11-27T09:34:15Z
+  collectedAt: 2026-11-28T09:24:50Z
 timeline:
   created: 2024-09-19
   lastCommit: 2026-11-21
@@ -15,7 +15,7 @@ timeline:
   lastRelease: 2026-11-20
   lastPrerelease: 2025-08-25
 popularity:
-  star: 672
+  star: 674
   watcher: 8
   fork: 111
   release: 76
@@ -30,7 +30,7 @@ language:
 totalBytes: 1375108
 recent:
   last30d:
-    since: 2026-10-28
+    since: 2026-10-29
     release: 3
     mergedPR: 12
     openPR: 2
@@ -38,23 +38,23 @@ recent:
     openIssue: 1
     commit: 13
   last60d:
-    since: 2026-09-28
+    since: 2026-09-29
     release: 7
-    mergedPR: 35
+    mergedPR: 34
     openPR: 5
     closedIssue: 4
-    openIssue: 4
+    openIssue: 3
     commit: 37
   last90d:
-    since: 2026-08-29
-    release: 9
-    mergedPR: 54
+    since: 2026-08-30
+    release: 8
+    mergedPR: 51
     openPR: 5
     closedIssue: 5
     openIssue: 4
     commit: 56
   last180d:
-    since: 2026-05-31
+    since: 2026-06-01
     release: 13
     mergedPR: 133
     openPR: 5
@@ -62,7 +62,7 @@ recent:
     openIssue: 7
     commit: 136
   last360d:
-    since: 2025-12-02
+    since: 2025-12-03
     release: 39
     mergedPR: 230
     openPR: 5
@@ -70,7 +70,7 @@ recent:
     openIssue: 9
     commit: 239
   last720d:
-    since: 2024-12-07
+    since: 2024-12-08
     release: 72
     mergedPR: 415
     openPR: 5
@@ -86,7 +86,7 @@ total:
   commit: 517
 ---
 path: /home/runner/.x-repo/github.com/Azure/co-op-translator
-collectedAt: 2026-11-27T09:34:26Z
+collectedAt: 2026-11-28T09:25:09Z
 loc:
   Python:
     code: 31941
